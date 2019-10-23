@@ -1,0 +1,15 @@
+C:\Users\willi\source\repos\ConfigurationManagerSolution\ConfigurationManager\bin\Debug\ConfigurationManager.exe.config
+C:\Users\willi\source\repos\ConfigurationManagerSolution\ConfigurationManager\bin\Debug\ConfigurationManager.exe
+C:\Users\willi\source\repos\ConfigurationManagerSolution\ConfigurationManager\bin\Debug\ConfigurationManager.pdb
+C:\Users\willi\source\repos\ConfigurationManagerSolution\ConfigurationManager\obj\Debug\ConfigurationManager.csprojAssemblyReference.cache
+C:\Users\willi\source\repos\ConfigurationManagerSolution\ConfigurationManager\obj\Debug\ConfigurationManager.exe
+C:\Users\willi\source\repos\ConfigurationManagerSolution\ConfigurationManager\obj\Debug\ConfigurationManager.pdb
+C:\Users\willi\source\repos\ConfigurationManagerSolution\ConfigurationManager\bin\Debug\MyModule.dll
+C:\Users\willi\source\repos\ConfigurationManagerSolution\ConfigurationManager\bin\Debug\System.Management.Automation.dll
+C:\Users\willi\source\repos\ConfigurationManagerSolution\ConfigurationManager\bin\Debug\MyModule.pdb
+C:\Users\willi\source\repos\ConfigurationManagerSolution\ConfigurationManager\obj\Debug\ConfigurationManager.csproj.CopyComplete
+C:\Users\willi\source\repos\ConfigurationManagerSolution\ConfigurationManager\bin\Debug\EntityFramework.dll
+C:\Users\willi\source\repos\ConfigurationManagerSolution\ConfigurationManager\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\willi\source\repos\ConfigurationManagerSolution\ConfigurationManager\bin\Debug\EntityFramework.xml
+C:\Users\willi\source\repos\ConfigurationManagerSolution\ConfigurationManager\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\willi\source\repos\ConfigurationManagerSolution\ConfigurationManager\bin\Debug\ConfigurationManager.xml

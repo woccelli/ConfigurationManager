@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ConfigurationManager</name>
+    </assembly>
+    <members>
+        <member name="T:ConfigurationManager.ConfigOption">
+            <summary>
+            abstract class to give a similar structure to all children configuration option classes
+            created to ease the ConfigOptions manipulation in GlobalConfig.cs
+            </summary>
+        </member>
+        <member name="P:ConfigurationManager.ConfigOption.ConfigOptionID">
+            <summary>
+            unique ConfigOption ID
+            </summary>
+        </member>
+        <member name="M:ConfigurationManager.ConfigOption.InvokePSCmd">
+            <summary>
+            functon used to build, invoke and display the results of PS commands
+            The attributes of the class are used to build the commands 
+            </summary>
+        </member>
+        <member name="T:ConfigurationManager.ConfigGlobal">
+            <summary>
+            class containing the list of all the specified ConfigOptions, 
+            used to sequentially launch the PS functions of these configOption classes
+            </summary>
+        </member>
+        <member name="P:ConfigurationManager.ConfigGlobal.ConfigID">
+            <summary>
+            unique Config ID
+            </summary>
+        </member>
+        <member name="P:ConfigurationManager.ConfigGlobal.ConfigList">
+            <summary>
+            list of instances of ConfigOption children classes
+            XmlArrayItem allows to identify which classes can be present in the xml input file (+ the abstract parent class)
+            </summary>
+        </member>
+        <member name="M:ConfigurationManager.ConfigGlobal.LaunchPSCmds">
+            <summary>
+            calls the InvokePSCmd (Invoke Powershell Commands) function of each item of the ConfigList List
+            </summary>
+        </member>
+        <member name="T:ConfigurationManager.Serializer">
+            <summary>
+            class used to fill Object classes with xml data (deserialize) or write xml string with Object class attributes (serialize)
+            </summary>
+        </member>
+        <member name="M:ConfigurationManager.Serializer.Deserialize``1(System.String)">
+            <summary>
+            populate a class with xml data 
+            </summary>
+            <typeparam name="T">Object Type</typeparam>
+            <param name="input">xml data</param>
+            <returns>Object Type</returns>
+        </member>
+        <member name="M:ConfigurationManager.Serializer.Serialize``1(``0)">
+            <summary>
+            convert object to xml string
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="ObjectToSerialize"></param>
+            <returns></returns>
+        </member>
+        <member name="T:ConfigurationManager.SubConfigOption">
+            <summary>
+            Exemple of a configuration option
+            Each attribute of the class will complete the PS commands/parameters launched in the InvokePSCmd function
+            </summary>
+        </member>
+        <member name="P:ConfigurationManager.SubConfigOption.Attr1">
+            <summary>
+            first arttribute corresponding to a PS Command
+            </summary>
+        </member>
+        <member name="P:ConfigurationManager.SubConfigOption.Attr2">
+            <summary>
+            second attribute corresponding to a PS parameter name
+            </summary>
+        </member>
+        <member name="P:ConfigurationManager.SubConfigOption.Attr3">
+            <summary>
+            third attribute corresponding to a PS parameter value
+            </summary>
+        </member>
+        <member name="M:ConfigurationManager.SubConfigOption.InvokePSCmd">
+            <summary>
+            uses the class attributes to build a Get-Date command and display the result in the console
+            </summary>
+        </member>
+    </members>
+</doc>

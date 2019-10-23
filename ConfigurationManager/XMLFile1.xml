@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ConfigGlobal>
+  <ConfigID>1</ConfigID>
+  <Configs>
+    <SubConfigOption>
+      <ConfigOptionID>10</ConfigOptionID>
+      <Attr1>Get-Date</Attr1>
+      <Attr2>DisplayHint</Attr2>
+      <Attr3>Date</Attr3>
+    </SubConfigOption>
+  </Configs>
+</ConfigGlobal>
