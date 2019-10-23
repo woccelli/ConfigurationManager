@@ -12,24 +12,26 @@ The attributes are used to dynamically construct commands (ex: attribute Name fo
 
 ### XML file
 
-<?xml version="1.0" encoding="utf-8" ?>
 The first tag of the xml file must be the name of the ConfigGlobal class.
 The following tags must match the ConfigGlobal Attributes, and their respective attributes.
-The list of configuration options must be enclosed by <Configs><//Configs> tags.
----
-Exemple : 
+The list of configuration options must be enclosed by "Configs" tags.
+
+Exemple :
+
+```xml
 <?xml version="1.0" encoding="utf-8" ?>
 <ConfigGlobal>
   <ConfigID>1<//ConfigID>
   <Configs>
     <SubConfigOption>
-      <ConfigOptionID>10<//ConfigOptionID>
-      <Attr1>Get-Date<//Attr1>
-      <Attr2>DisplayHint<//Attr2>
-      <Attr3>Date<//Attr3>
-    <//SubConfigOption>
-  <//Configs>
-<//ConfigGlobal>
+      <ConfigOptionID>10</ConfigOptionID>
+      <Attr1>Get-Date</Attr1>
+      <Attr2>DisplayHint</Attr2>
+      <Attr3>Date</Attr3>
+    </SubConfigOption>
+  </Configs>
+</ConfigGlobal>
+```
 
 ### Visual Studio build
 
